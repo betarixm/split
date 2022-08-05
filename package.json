@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@intlify/nuxt3": "^0.2.3",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "@nuxtjs/tailwindcss": "^5.3.1",
+    "@types/body-scroll-lock": "^3.1.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^3.2.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nuxt": "3.0.0-rc.6",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.1"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.0.2",
+    "@vueuse/gesture": "^2.0.0-beta.1",
+    "@vueuse/motion": "^2.0.0-beta.12",
+    "@vueuse/nuxt": "^9.0.2",
+    "axios": "^0.27.2",
+    "body-scroll-lock": "3.1.5",
+    "copy-to-clipboard": "^3.3.2",
+    "csv-parse": "^5.3.0",
+    "motion": "^10.13.1",
+    "public-google-sheets-parser": "^1.2.6",
+    "swrv": "^1.0.0-beta.8",
+    "vue-use-spring": "^0.1.1"
+  }
+}
