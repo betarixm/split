@@ -43,7 +43,7 @@ export const contentToTransactions =
             const price: number = Number(arr[COLUMNS.PRICE].replace(/\D/g, ''))
             const denominator: number = rates.reduce((r, s) => r + s, 0)
             return {
-                date: new Date(Number(arr[COLUMNS.YEAR]), Number(arr[COLUMNS.MONTH]), Number(arr[COLUMNS.DATE])),
+                date: new Date(Number(arr[COLUMNS.YEAR]), Number(arr[COLUMNS.MONTH]) - 1, Number(arr[COLUMNS.DATE])),
                 title: arr[COLUMNS.TITLE],
                 description: arr[COLUMNS.DESCRIPTION],
                 price: price,
