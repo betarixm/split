@@ -7,7 +7,6 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@intlify/nuxt3": "^0.2.4",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@nuxtjs/tailwindcss": "6.1.3",
     "@types/body-scroll-lock": "^3.1.0",
@@ -25,6 +24,7 @@
     "webpack": "^5.75.0"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "8.0.0-beta.4",
     "@vueuse/core": "^9.5.0",
     "@vueuse/gesture": "^2.0.0-beta.1",
     "@vueuse/motion": "^2.0.0-beta.12",
