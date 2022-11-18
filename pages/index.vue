@@ -55,6 +55,8 @@ const enterHandler = () => {
         <a
             href="https://docs.google.com/spreadsheets/d/1ubGM6Qj4ZeRGKoyRFIkh0k4dPz9_U4qu14muktZmExs/edit#gid=125200710"
             class="underline text-neutral-400 mt-6 font-light text-sm"
+            target="_blank"
+            rel="noopener noreferer"
         >
             Copy Sample Spreadsheet ↗
         </a>
